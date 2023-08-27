@@ -32,7 +32,7 @@ const Register = () => {
 		setloading("loader");
         const { name, email, password, reEnterPassword } = user
         if( name && email && password && (password === reEnterPassword)){
-            axios.post("http://localhost:4000/todo/register", user)
+            axios.post("https://todoapp-4f90.onrender.com/todo/register", user)
             .then( res => {
                 alert(res.data.message)
                 setblur("noblur");
