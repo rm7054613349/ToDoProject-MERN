@@ -5,7 +5,7 @@ import Popup from '../../Components/Popup';
 import axios from "axios"
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
-const api_base = 'http://localhost:4000';
+const api_base = 'https://todoapp-4f90.onrender.com';
 
 function Home(props) {
 	const [todos, setTodos] = useState([]);
