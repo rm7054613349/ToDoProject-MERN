@@ -39,7 +39,7 @@ const setTime = () => {
               <GiRocketThruster className="navbar-icon" />
               Skye
             </Link> */}
-            <h1 className="navbar-logo">ToDoApp</h1>
+            <h1 className="navbar-logo">TaskManager</h1>
             <div className="menu-icon" onClick={props.handleClick}>
               {props.click ? <FaTimes /> : <FaBars />}
             </div>
